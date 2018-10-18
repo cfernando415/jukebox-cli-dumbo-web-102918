@@ -24,9 +24,11 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
+  i = 1
   my_songs.each do |title, absolute_path|
-    
-    
+    puts "#{i}. #{title}"
+    i += 1
+  end
 end
 
 
