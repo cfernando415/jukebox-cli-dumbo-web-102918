@@ -45,8 +45,8 @@ def play(my_songs)
   if my_songs.has_key?(user_response)
     system "open my_songs[user_response]"
   else
-    puts 
-  
+    puts "Your choice is invalid."
+  end
 end
 
 def exit_jukebox
