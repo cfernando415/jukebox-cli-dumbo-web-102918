@@ -56,9 +56,9 @@ def run(my_songs)
     user_input = gets.downcase.chomp
     case user_input
       when "list"
-        list(songs)
+        list(my_songs)
       when "play"
-        play(songs)
+        play(my_songs)
       else "help"
         help
     end
