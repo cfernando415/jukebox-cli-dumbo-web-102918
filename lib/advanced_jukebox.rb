@@ -31,7 +31,6 @@ def list(my_songs)
   end
 end
 
-
 def play(my_songs)
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
